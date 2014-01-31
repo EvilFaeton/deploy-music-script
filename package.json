@@ -1,0 +1,17 @@
+{
+  "name": "DeployNotify",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "player": "*",
+    "pusher-node-clien": "git+ssh://git@github.com:abhishiv/pusher-node-client.git",
+    "node-notifier": "*"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.0",
+    "gulp-uglify": "~0.2.0",
+    "gulp-coffee": "~1.4.0",
+    "gulp-clean": "~0.2.4",
+    "gulp-util": "~2.2.13"
+  }
+}
